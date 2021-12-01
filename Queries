@@ -4,10 +4,10 @@
 4-Display the name and salary for all employees.
 5-Display the employee no and totalsalary for all the employees.
 6-Display the employee name and annual salary for all employees.
-7-
-8-
-9-
-10-
+7-Display the names of all the employees who working in depart number 10.
+8-Display the names of all the employees who are working as clerks and drawing a salary more than 3000.
+9-Display the employee number and name who are earning comm.
+10-Display the employee number and name who do not earn any comm.
 11-
 12-
 13-
