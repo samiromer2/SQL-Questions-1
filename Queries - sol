@@ -4,10 +4,10 @@
 4-select ename , sal from emp;
 5-select empno , ename , sal , comm , sal+nvl(comm,0) as "total salary" from emp;
 6-select ename , 12 *(sal+nvl(comm,0)) as "annual sal" from emp;
-7-
-8-
-9-
-10-
+7-select ename from emp where deptno = 10;
+8-select ename from emp where job = 'CLERK' and sal > 3000;
+9-select empno , ename from emp where comm is not null;
+10-select empno , ename from emp where comm is null;
 11-
 12-
 13-
