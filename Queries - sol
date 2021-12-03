@@ -8,10 +8,10 @@
 8-select ename from emp where job = 'CLERK' and sal > 3000;
 9-select empno , ename from emp where comm is not null;
 10-select empno , ename from emp where comm is null;
-11-
-12-
-13-
-14-
+11-select ename from emp where job = 'CLERK' or job = 'SALESMAN' or job = 'ANALYST' and sal > 3000;
+12-select ename from emp where to_char(sysdate,'YYYY') - to_char(hiredate,'YYYY')>=5;
+13-select ename from emp where hiredate < '30-JUN-1990' or hiredate > '31-DEC-90';
+14-select sysdate from dual;
 15-
 16-
 17-
