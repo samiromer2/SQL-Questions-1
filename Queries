@@ -12,12 +12,12 @@
 12-Display the names of the mployees who are working in the company for the past 5 years.
 13-Display the list of employees who have joined the company before 30-JUN-90 or after 31-DEC-90.
 14-Display current Date.
-15-
-16-
-17-
-18
-19
-20
+15-Display the list of all users in your database(use catalog table).
+16-Display the names of all tables from current user.
+17-Display the name of the current user.
+18-Display the names of employees working in department number 10 or 20 or 40 or employees working as clerks, salesman or analyst
+19-Display the names of empployees whose name starts with alaphabet s.
+20-Display the employee names for employees whose name ends with alaphabet s.
 21
 22
 23
