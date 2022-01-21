@@ -28,21 +28,21 @@
 28-select max(sal) from emp;
 29-select min(sal) from emp;
 30-select avg(sal) from emp;
-31-
-32-
-33-
-34-
-35-
-36-
-37-
-38-
-39-
-40
-41-
-42-
-43-
-44-
-45-
+31-select max(sal) from emp;
+32-select max(sal) from emp where deptno = 20;
+33-select min(sal) from emp where job = 'SALESMAN';
+34-select avg(sal) from emp where job = 'MANAGER';
+35-select sum(sal) from emp where job='ANALYST' and deptno = 40;
+36-select ename from emp order by sal;
+37-selec ename from emp ordery by sal desc;
+38-select ename from emp order by ename;
+39-select empno , ename , deptno , sal from emp order by ename ,deptno , sal;
+40-select ename , sal*12 from emp order by sal desc;
+41-select ename , sal , sal/100*15 as hra, sal/100*5 as pf,sal/100*10 as da , sal+sal/100*15+sal/100*10-sal/100*5 as total from emp;  
+42-select deptno,count(deptno) from emp group by deptno;
+43-select job , count(job) from emp group by job;
+44-select deptno , sum(sal) from emp group by deptno;
+45-select deptno , max(sal) from emp group by deptno;
 46-
 47-
 48-
