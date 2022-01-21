@@ -18,16 +18,16 @@
 18-select ename from emp where deptno in (10,20,40) or job in ('CLERKS','SALESMAN','ANALYST')
 19-select ename from emp where ename like 'S%';
 20-select ename from emp where ename like '%S';
-21
-22
-23
-24
-25
-26
-27
-28
-29
-30
+21-select ename from emp where ename like '_A%';
+22-select ename from emp where length(ename)=5;
+23-select ename from emp where job not in('MANAGER');
+24-select ename from emp where job not in ('SALESMAN','CLERK','ANALYST');
+25-set pause on
+26-select count(*) from emp;
+27-select sum(sal) from emp;
+28-select max(sal) from emp;
+29-select min(sal) from emp;
+30-select avg(sal) from emp;
 31-
 32-
 33-
