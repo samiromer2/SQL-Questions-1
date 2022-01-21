@@ -18,16 +18,16 @@
 18-Display the names of employees working in department number 10 or 20 or 40 or employees working as clerks, salesman or analyst
 19-Display the names of empployees whose name starts with alaphabet s.
 20-Display the employee names for employees whose name ends with alaphabet s.
-21
-22
-23
-24
-25
-26
-27
-28
-29
-30
+21-Display the names of employees whose names have second alphabet A in their names.
+22-Display the names of the employee whose names is exactly five characters in length.
+23-Display the names of the employee who are not working as managers.
+24-Display the names of the employee who are not working as salesman or clerk or analyst.
+25-Display all rows from emp table . The system should wait after every screen full of information.
+26-Display the total number of employee working in the company.
+27-Display the total salary beiging paid to all employees.
+28-Display the maximum salary from semp table.
+29-Display the minimum salary from emp table.
+30-Display the average salary from emp table.
 31-
 32-
 33-
