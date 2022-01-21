@@ -28,21 +28,21 @@
 28-Display the maximum salary from semp table.
 29-Display the minimum salary from emp table.
 30-Display the average salary from emp table.
-31-
-32-
-33-
-34-
-35-
-36-
-37-
-38-
-39-
-40
-41-
-42-
-43-
-44-
-45-
+31-Display the maximum salary being paid to clerk.
+32-Display the maximum salary being paid to depart number 20.
+33-Display the minmum salary being paid to any salesman.
+34-Display the average salary drawn by managers
+35-Display the total salary drawn by analyst working in department number 40.
+36-Display the names of the employee in order of salary i.e the name of the employee earning lowest salary should salarty appear first.
+37-Display the names of the employee in descending order of salary.
+38-Display the names of the employee in order of employee name.
+39-Display ename , ename , deptno,sal sort the output first base on name and within name by deptno and with in deptno by sal.
+40-Display the name of the employee along with their annual salary(sal*12). The name of the employee earning highest annual salary should appear first.
+41-Display name,salary hra,pf,da,total salary for each employee. The output should be in the order of total salarty,hra 15% of salary , pf 5% salary , total salary will be (salary+hra+da)-pf. 
+42-Display depart numbers and total number of employees working in each department.
+43-Display the various jobs and total number of employees within each job group. 
+44-Display the depart numbers and total salary for each department.
+45-Display the depart numbers and max salary for each department.
 46-
 47-
 48-
