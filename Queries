@@ -67,3 +67,4 @@
 67-select name of the employee concatenate with employee number.
 68-User appropriate function and extract 3 characters starting from 2 characters from the following string 'Oracle'. i.e the output should be 'ac'.
 69-Find the first occurance of character 'a' from the following string i.e 'Computer Manitenance Corporation'.
+70-Display the names of employees who earn a salary more than that of Jones or that of salary greater than that of scott.
