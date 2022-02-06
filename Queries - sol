@@ -43,27 +43,28 @@
 43-select job , count(job) from emp group by job;
 44-select deptno , sum(sal) from emp group by deptno;
 45-select deptno , max(sal) from emp group by deptno;
-46-
-47-
-48-
-49-
-50
-51-
-52-
-53-
-54-
-55-
-56-
-57-
-58-
-59-
-60
-61-
-62-
-63-
-64-
-65-
-66-
-67-
-68-
-69-
+46-select job , sal(sal) from emp group by job;
+47-select job,min(sal) from emp group by job;
+48-select deptno,count(deptno) from emp group by job;
+49-select job , sum(sal) from emp group by job having sum(sal)>40000;
+50-select job,count(empno) from emp group by job having count(job)>3
+51-select ename from emp where sal=(select max(sal) from emp);
+52-select empno,ename from emp where job='CLERK' and sal =(select max(sal) from emp where job='CLERK');
+53-select ename , sal from emp where job = 'SALESMAN' and sal>(select max(sal) from emp where job ='CLERK');
+54-select ename from emp where job ='CLERK' and sal >(select min(sal) from emp where job='SALESMAN');
+55-select ename , sal , deptno from emp where sal in (select max(sal) from emp group by deptno);
+56-select ename , sal , job from emp where sal in (select max(sal) from emp group by job);
+57-select ename from emp where deptno=(select deptno from dept where dname = 'ACCOUNTING');
+58-select ename from emp where deptno = (select deptno from dept where loc = 'CHICAGO');
+59-select job , sum(sal) from emp group by job having sum(sal)>(select max(sal) from emp where job = 'MANAGER')
+60-select ename from emp where deptno = 10 and sal > any(select sal from emp where deptno not in 10);
+61-select ename from emp where deptno = 10 and sal >all(select sal from emp where deptno not in 10);
+62-select upper(ename) from emp;
+63-select lower(ename) from emp;
+64-select initcap(ename) from emp;
+65-select length(ename) from dual;
+66-select upper(ename) from emp;
+67-select ename||empno from emp;
+68-select substr('oracle',3,2) from dual;
+69-select instr('Computer Maintenance Corporation','a',1) from dual;
+70-select ename , sal from emp where sal >(select sal from emp where ename ='JONES') and sal > (select sal from emp where ename = 'SCOTT');
