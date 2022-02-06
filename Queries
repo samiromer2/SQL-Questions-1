@@ -43,27 +43,27 @@
 43-Display the various jobs and total number of employees within each job group. 
 44-Display the depart numbers and total salary for each department.
 45-Display the depart numbers and max salary for each department.
-46-
-47-
-48-
-49-
-50
-51-
-52-
-53-
-54-
-55-
-56-
-57-
-58-
-59-
-60
-61-
-62-
-63-
-64-
-65-
-66-
-67-
-68-
-69-
+46-Display the various jobs and total salary for each job.
+47-Display the various jobs and min salary for each job.
+48-Display the depart numbers with more than three employees in each dept.
+49-Display the various jobs along with total salary for each of the jobs where total salary is greater than 40000.
+50-Display the various jobs along with total number of emplyees in each job. the output should contain only theose jobs with more than three employees.
+51-Display the name of the employee who earns highest salary.
+52-Display the employee number and name for employee working as clerk and earning highest salary amount clerks.
+53-Display the names of salesman who earn a salary more than the highest salarty of any clerk.
+54-Display the names of clerks who earn a salary more than the lowest salary of any salesman.
+55-Display the names of the employees who earn highest salary in their respective departments.
+56-Display the names of the employees who earn highest salaries in therir respecive job groups.
+57-Display the employeee names who are working in accounting department.
+58-Display the employee names who are working in Chicago.
+59-Display the job groups having total salary greater than the maximum salary for managers.
+60-Display the names of employees from department number 10 with salary greater than that of any employee working in other department.
+61-Display the names of the employees from department number 10 with salary greater than that of all employee working in other departments.
+62-Display the names of the employees in Uppercase.
+63-Display the names of the employees in Lowcase.
+64-Display the names of the employees in Propercase.
+65-Display the length if Your name using appropriate function.
+66-Display the length of all the employee names.
+67-select name of the employee concatenate with employee number.
+68-User appropriate function and extract 3 characters starting from 2 characters from the following string 'Oracle'. i.e the output should be 'ac'.
+69-Find the first occurance of character 'a' from the following string i.e 'Computer Manitenance Corporation'.
